@@ -15,7 +15,9 @@
     "type": "git",
     "url": "https://github.com/vortrieb/internation-mapbox"
   },
+  "main": "src/jquery.inMap.js",
   "devDependencies": {
+    "browserify": "^13.1.1",
     "gulp": "~3.8.0",
     "gulp-concat": "~2.2.0",
     "gulp-connect": "^2.2.0",
@@ -40,5 +42,15 @@
     "mocha": "^1.20.1",
     "requirejs": "^2.1.14"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "leaflet": "^0.7.7",
+    "leaflet.markercluster": "^0.4.0",
+    "lodash": "^2.4.1",
+    "mapbox.js": "^1.6.7"
+  },
+  "scripts": {
+    "start": "browserify src/main.js -o dist/main.js",
+    "build": "browserify src/jquery.inMap.js -o dist/jquery.inMap.js"
+  }
 }
