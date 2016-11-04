@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+        <style type="text/css" media="screen">
+            #basic_map, #clustered_map {
+                width: 800px;
+                height: 400px;
+            }
+
+            .goal {
+                fill: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="basic_map">example for basic init</div>
+
+        <div class="sample_content">
+            Some sample <strong>HTML Content</strong> for the description
+        </div>
+
+        <a class="next" href="#">next</a>
+        <a class="all" href="#">all markers</a>
+        <a class="all--countries" href="#">all countries</a>
+        <a class="prev" href="#">prev</a>
+        <a class="remove" href="#">remove index 2</a>
+        <br>
+        <a class="load-more" href="#">load more countries</a>;
+
+        <div id="clustered_map">clustered map example</div>
+    </body>
+
+    <script data-main="src/main.js" src="lib/requirejs/require.js"></script>
+</html>

@@ -1,0 +1,27 @@
+_prefs: 
+  mapid: lstrojny.0cf22f83
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 4.3506
+  - 55.0028
+  - 5
+description: internations stylling
+format: "png8:m=h:c=32"
+interactivity_layer: ''
+layers: null
+maxzoom: 14
+minzoom: 3
+name: internations
+source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
+styles: 
+  - style.mss
+template: ''

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "RRR",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [60, 40],
+                        [60, 60],
+                        [40, 60],
+                        [40, 40]
+                    ]
+                ]
+            }
+        }, {
+            "type": "Feature",
+            "id": "CAR",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-60, -40],
+                        [-60, -60],
+                        [-40, -60],
+                        [-40, -40]
+                    ]
+                ]
+            }
+        }
+    ]
+}
